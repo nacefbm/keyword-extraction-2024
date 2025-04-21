@@ -78,7 +78,7 @@ A comprehensive analysis and implementation of automatic keyword extraction meth
 ├── notebooks/
 │   └── Keyword_Extraction_HAL.ipynb     # Main implementation notebook
 ├── data/
-│   ├── processed/
+│   ├── processed dataframe/
 │   │   ├── df.parquet                   # Complete dataset
 │   │   ├── df_en.parquet               # English subset
 │   │   └── df_fr.parquet               # French subset
@@ -89,9 +89,13 @@ A comprehensive analysis and implementation of automatic keyword extraction meth
 │       ├── df_llm_title.parquet        # LLM title analysis
 │       ├── df_stat.parquet             # Statistical analysis
 │       └── df_stat_titre.parquet       # Title statistics
-├── docs/
-│   ├── Keywords_Presentation.pdf       # Project presentation
-│   └── KeywordsPublication.pdf         # Technical documentation
+├── articles & posters/
+│   ├── french/                  
+│   │    ├── Keywords_Presentation.pdf       # Project presentation
+│   │    └── KeywordsPublication.pdf
+│   └── english/
+│        ├── NAACL_2025_article.pdf       # Project presentation
+│        └── NAACL_2025_poster.pdf
 ├── visuals/
 │   └── sankeymatic_20240218_174859_1900x1200.png  # Flow visualization
 └── README.md
